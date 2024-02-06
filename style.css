@@ -9,9 +9,6 @@ body{
     color: #1d1b1b;
 }
 
-html{
-    scroll-behavior: smooth;
-}
 
 /* Header */
 header{
@@ -31,6 +28,7 @@ nav{
     justify-content: space-between;
     border-bottom: 2px solid #979797a8;
 }
+
 
 /* Logo */
 .logo img{
@@ -59,14 +57,12 @@ li a{
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
-    transition: .3s ease;
     padding: 10px;
 }
 
 .li-item{
     padding-bottom: 10px;
     border-bottom: 2px solid white;
-    transition:border-bottom-color .4s ease;
 }
 
 .li-item:hover{
@@ -80,7 +76,6 @@ li a:hover{
 i{
     color: #1d1b1b;
     font-size: 25px;
-    transition: .3s ease;
     margin-top: 20px;
 }
 
@@ -303,7 +298,6 @@ footer h2{
     padding: 10px 15px;
     border: 2px solid #1d1b1b;
     cursor: pointer;
-    transition: .3s ease;
     font-size: 15px;
     font-weight: bold;
 }
@@ -390,7 +384,6 @@ footer h2{
     font-weight: bold;
     text-align: center;
     cursor: pointer;
-    transition: .3s ease;
 }
 .delate-btn{
     display: block;
@@ -404,7 +397,6 @@ footer h2{
     font-weight: bold;
     text-align: center;
     cursor: pointer;
-    transition: .3s ease;
 }
 
 .pay-btn:hover{
